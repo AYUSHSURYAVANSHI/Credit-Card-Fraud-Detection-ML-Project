@@ -6,8 +6,7 @@ import os,sys
 from src.pipeline.train_pipeline import TraininingPipeline
 from src.pipeline.predict_pipeline import PredictionPipeline
 
-application = Flask(__name__)
-app = application
+app = Flask(__name__)
 
 @app.route("/")
 def home():
